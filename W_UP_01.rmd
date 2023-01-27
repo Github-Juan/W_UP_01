@@ -1,8 +1,10 @@
 ---
 title: "W_UP_01"
-author: "your name here"
-date: "fall 2020"
-output: html_document
+author: "Juan Guardado"
+date: "spring 2023"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 

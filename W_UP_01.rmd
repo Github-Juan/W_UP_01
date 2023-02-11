@@ -33,6 +33,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+The number is explanatory by categorical means that the time  # Results.
+
 
 
 # Results
@@ -44,6 +46,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
 
 ### Plot boxplots
 
@@ -69,8 +73,16 @@ the numerical data represents that the The minimum, median, and mode of the Skil
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(pushups~position,data=mydata)
+```
+
+If P values is  0.00009421 .I am inferring that there is a different between skilled and line ,skilled players have in fact more push ups  So I reject the null hypothesis .
+
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Based on the results there is a difference within the two mins that skilled positions playes are doing more pushups than line player.
 
